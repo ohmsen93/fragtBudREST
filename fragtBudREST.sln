@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fragtBudREST", "fragtBudREST\fragtBudREST.csproj", "{40C77622-328F-4B1B-95A2-62B8B5F0E903}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fragtBudREST", "fragtBudREST\fragtBudREST.csproj", "{BF99AD6B-DFBC-45CC-B307-A7904A32D6DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{40C77622-328F-4B1B-95A2-62B8B5F0E903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{40C77622-328F-4B1B-95A2-62B8B5F0E903}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{40C77622-328F-4B1B-95A2-62B8B5F0E903}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{40C77622-328F-4B1B-95A2-62B8B5F0E903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF99AD6B-DFBC-45CC-B307-A7904A32D6DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF99AD6B-DFBC-45CC-B307-A7904A32D6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF99AD6B-DFBC-45CC-B307-A7904A32D6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF99AD6B-DFBC-45CC-B307-A7904A32D6DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
