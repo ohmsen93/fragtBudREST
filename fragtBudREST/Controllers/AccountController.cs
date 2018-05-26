@@ -358,6 +358,34 @@ namespace fragtBudREST.Controllers
             return Ok();
         }
 
+
+        // POST api/Account/Register
+        [AllowAnonymous]
+        [Route("RegisterMedarbejder")]
+        public async Task<IHttpActionResult> RegisterMedarbejder(RegisterBindingModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var user = new ApplicationUser() { UserName = model.Email, Email = model.Email };
+
+            IdentityResult result = await UserManager.CreateAsync(user, model.Password);
+
+            if (!result.Succeeded)
+            {
+                return GetErrorResult(result);
+            }
+
+            if (result.Succeeded)
+            {
+                await UserManager.AddToRoleAsync(user.Id, "Medarbejder");
+            }
+
+            return Ok();
+        }
+
         // POST api/Account/RegisterExternal
         [OverrideAuthentication]
         [HostAuthentication(DefaultAuthenticationTypes.ExternalBearer)]
